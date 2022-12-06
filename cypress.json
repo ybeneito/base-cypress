@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://example.cypress.io/",
+  "responseTimeout": 60000,
+  "defaultCommandTimeout": 30000,
+  "integrationFolder": "cypress/",
+  "testFiles": "**/**/*.spec.ts",
+  "projectId": "XXXXX",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  },
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
+}
